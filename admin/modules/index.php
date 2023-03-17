@@ -1,1 +1,1 @@
-<p>Dashboard</p>
+<p>Trang Admin</p>

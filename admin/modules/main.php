@@ -1,7 +1,7 @@
 <div class="clear"></div>
 <div class="main">
     <?php
-        if(isset($_GET['action']) && $_GET['query']){
+        if(isset($_GET['query']) && $_GET['query']){
             $tam = $_GET['action'];
             $query = $_GET['query'];
         }else{
@@ -18,6 +18,8 @@
             include("modules/quanlysp/danhsach.php");
         }elseif($tam == 'quanlysp' && $query=='sua'){
             include("modules/quanlysp/sua.php");
+        }elseif($tam == 'quanlydanhmucsanpham' && $query=='xoa'){
+                include("modules/quanlydanhmuc/danhsach.php");
         }
         else{
             include("modules/index.php");

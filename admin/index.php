@@ -1,3 +1,9 @@
+<?php
+session_start();
+if(!isset($_SESSION['dangnhap'])){
+    header('Location:login.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="../admin/css/admin.css">
 </head>
 <body>
-    <h3 class="title_admin">Dashboard</h3>
+    <h3 class="title_admin">Trang Admin</h3>
     <div class="wrapper">
     <?php
             include("config/db.php");
