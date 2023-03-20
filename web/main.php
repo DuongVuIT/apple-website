@@ -22,6 +22,9 @@
                     elseif($tam == 'sanpham'){
                         include("main/sanpham.php");
                     }
+                    elseif($tam == 'timkiem'){
+                        include("main/timkiem.php");
+                    }
                     else{
                         include("main/index.php");
                     }
