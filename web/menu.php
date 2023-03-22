@@ -14,9 +14,6 @@ $query_danhmuc = mysqli_query($mysqli, $sql_danhmuc);
         }
         ?>
 
-        <li><a href="index.php?quanly=lienhe">Liên hệ</a></li>
-        <li><a href="index.php?quanly=giohang">Giỏ hàng</a></li>
-
     </ul>
     <form action="index.php?quanly=timkiem" method="POST">
         <p><input type="text" placeholder="Tìm kiếm sản phẩm .." name="tukhoa">

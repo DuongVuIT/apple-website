@@ -15,7 +15,7 @@
                 <h3>Tên sản phẩm: <?php echo $row_chitiet['tensanpham']?></h3>
                 <p>Giá sản phẩm: <?php echo number_format($row_chitiet['giasp'],0,',','.'). ' VND' ?></p>
                 <p>Loại sản phẩm: <?php echo $row_chitiet['ten_dm']?></p>
-                <p><input class="themgiohang" name="themgiohang" type="submit" value="Thêm giỏ hàng"></p>
+              
         </div>
     </form>
 </div>
