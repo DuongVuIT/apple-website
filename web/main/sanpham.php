@@ -4,13 +4,12 @@
     $query_chitiet = mysqli_query($mysqli, $sql_chitiet);
     while($row_chitiet = mysqli_fetch_array($query_chitiet))
     {
-
 ?>
 <div class="wrapper_chitiet">
     <div class="hinhanh_sanpham">
             <img width="20%" src="admin/modules/quanlysp/uploads/<?php echo $row_chitiet['hinhanh']?>">
     </div>
-    <form method="POST" action="web/main/themgiohang.php?idsanpham=<?php echo $row_chitiet['id_sanpham']?>">
+    <form method="POST" >
         <div class="chitiet_sanpham">
                 <h3>Tên sản phẩm: <?php echo $row_chitiet['tensanpham']?></h3>
                 <p>Giá sản phẩm: <?php echo number_format($row_chitiet['giasp'],0,',','.'). ' VND' ?></p>

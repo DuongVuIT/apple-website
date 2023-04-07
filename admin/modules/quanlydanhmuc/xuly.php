@@ -14,7 +14,7 @@
         $id=$_GET['iddanhmuc'];
         $sql_xoa = "DELETE FROM danhmuc WHERE id_danhmuc='".$id."'";
         mysqli_query($mysqli,$sql_xoa);
-        header('location:../../index.php?action=quanlydanhmucsanpham');
+        header('location:../../index.php?action=quanlydanhmucsanpham&query=them');
     }
 
 ?>

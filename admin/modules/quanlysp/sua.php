@@ -14,7 +14,7 @@
         <td><input type="text" value="<?php echo $row['masp']?>" name="masp"></td>
       </tr>
       <tr>
-        <th>Tên sản phâm</th>
+        <th>Tên sản phẩm</th>
         <td><input type="text" value="<?php echo $row['tensanpham']?>" name="tensanpham"></td>
       </tr>
       <tr>

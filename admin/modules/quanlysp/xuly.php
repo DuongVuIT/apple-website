@@ -17,8 +17,6 @@
         mysqli_query($mysqli,$sql_them);
         move_uploaded_file($hinhanh_tmp, 'uploads/'.$hinhanh);
         header('location:../../index.php?action=quanlysp&query=them');
-
-
     }elseif(isset($_POST['suasanpham'])){
         if($hinhanh != ''){
             move_uploaded_file($hinhanh_tmp, 'uploads/'.$hinhanh);

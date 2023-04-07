@@ -6,7 +6,7 @@
     <td><input type="text" name="masp"></td>
   </tr>
   <tr>
-    <th>Tên sản phâm</th>
+    <th>Tên sản phẩm</th>
     <td><input type="text" name="tensanpham"></td>
   </tr>
   <tr>
